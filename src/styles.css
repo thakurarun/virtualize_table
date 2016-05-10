@@ -1,0 +1,10 @@
+td {
+	height: 45px;
+    clear: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+	font-size:12px;
+}

@@ -1,0 +1,29 @@
+/* max-height - the only parameter in this file that needs to be edited.
+ * Change it to suit your needs. The rest is recommended to leave as is.
+ */
+.virtualize-scroll{
+  overflow: auto;
+  min-height:300px;
+  max-height:500px;
+}
+
+/* By default extra tag .virtualize-keep-parity added to keep parity of rows.
+ * Useful when used :nth-child(even/odd)
+ */
+.virtualize-extra-row.virtualize-keep-parity{
+  display: none;
+}
+
+/* During initialization virtualize adds tabindex to force the browser to keep focus
+ * on the scrolling list, see issue #11
+ * Outline removes default browser's borders for focused elements.
+ */
+.virtualize-content{
+    outline: 0;
+}
+
+/* centering message that appears when no data provided
+ */
+.virtualize-no-data td{
+  text-align: center;
+}
